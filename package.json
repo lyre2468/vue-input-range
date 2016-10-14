@@ -1,11 +1,12 @@
 {
   "name": "vue-input-range",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue-input-range",
   "main": "webpack.config.js",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
-    "start": "webpack-dev-server --port 9876 --host 0.0.0.0"
+    "start": "webpack-dev-server --port 8090 --host 0.0.0.0",
+    "dev": "node_modules/.bin/webpack-dev-server --host 0.0.0.0 --port 8090 --progress --no-info --colors --inline --hot --display-error-details --content-base src/"
   },
   "repository": {
     "type": "git",
@@ -50,6 +51,7 @@
     "style-loader": "^0.13.0",
     "template-html-loader": "0.0.3",
     "vue-html-loader": "^1.2.0",
-    "webpack": "^1.12.2"
+    "webpack": "^1.12.2",
+    "webpack-dev-server": ""
   }
 }

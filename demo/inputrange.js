@@ -8,6 +8,10 @@ var demo = new Vue({
     data: {
     	val: 0.6,
         step: 2,
-        scale: [0,90,200]
+        scale: [0,100,200]
+    },
+    ready(){
+        document.querySelector('#demo').classList.remove('hide');
     }
 });
+
